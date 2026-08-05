@@ -1,0 +1,21 @@
+# model weights - big binaries, don't belong in git history
+checkpoints/
+*.pth
+*.h5
+*.keras
+
+# dataset
+data/
+fer2013/
+train/
+test/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# editor cruft
+tempCodeRunnerFile.py
+.vscode/
